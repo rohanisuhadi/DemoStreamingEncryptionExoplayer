@@ -142,7 +142,7 @@ import okhttp3.OkHttpClient;
     //    online encrypt
 //    "http://192.168.0.24/3824_20161227003359.mp3"
     MediaSource sampleSource = new ExtractorMediaSource(
-            Uri.parse("https://storage.googleapis.com/audiobookchapter/3550_20170116235132.mp3"),
+            Uri.parse("https://www.digitalpasific.com/wp-content/uploads/2018/08/encrypted_file.mp3"),
             new OnlineEncryptedFileDataSourceFactory(mCipher, mSecretKeySpec, mIvParameterSpec,
                     new OkHttpClient(),
                     "Android.ExoPlayer",
